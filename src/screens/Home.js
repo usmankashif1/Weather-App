@@ -20,6 +20,7 @@ const ScreenTwo = () => {
 
   const [cityName, setCityName] = useState('Islamabad');
   const [displayCity, setDisplayCity] = useState('Islamabad');
+  const [AddCity,setAddCity]=useState('');
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const API_KEY = '60ae1d9b5e0140bc772311bfd8978781';
